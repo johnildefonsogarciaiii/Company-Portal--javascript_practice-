@@ -1,0 +1,218 @@
+
+#ticketingUpper{
+border-radius: 30px;
+border: rgb(0, 0, 0) solid;
+background-color: aliceblue;
+width: 60%;
+height: 45%;
+display: flexbox;
+-webkit-animation: fadeEffect 1;
+animation: fadeEffect 1s;
+}
+.ticketEntry1{
+display: flex;
+padding: 2px;
+text-align: center;
+vertical-align: middle;
+flex-wrap: wrap;
+}
+
+.ticketEntry2{
+    display: flex;
+    padding: 2px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.input{
+width: 200px;
+height: 25px;
+border-radius: 10px;
+background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+}
+.concerninput{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.remarksinput{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
+}
+
+.submitbtn{
+    width: 150px;
+    background-color: rgb(81, 255, 0);
+    border-radius: 10px;
+    font-family: cursive;
+    position: relative;
+    top: 50px;
+}
+
+
+
+.ticketingText1{
+    padding: 2px 15px;
+}
+.ticketingText2{
+    padding: 2px 15px;
+}
+.ticketingText3{
+    padding: 2px 15px;
+}
+.ticketingText4{
+    padding: 2px 15px;
+}
+.ticketingText5{
+    padding: 2px 15px;
+}
+.ticketingText6{
+    padding: 2px 15px;
+}
+.ticketingText7{
+    padding: 2px 15px;
+}
+.ticketingText8{
+    padding: 2px 15px;
+}
+
+#employeeConcern{
+height: 50px;
+width: 250px;
+text-align: center;
+}
+
+#employeeRemarks{
+    height: 50px;
+    width: 450px;
+    text-align: center;
+}
+.ticketingBtn{
+    padding: 1px 50px;
+}
+.modalHeader{
+position: relative;
+bottom: 75px;
+}
+
+.content{
+position: relative;
+bottom: 40px;
+}
+
+.ticketEntry2{
+  position: relative;
+  top: 20px;
+}
+
+.close-modal {
+top: 1.2rem;
+right: 2rem;
+font-size: 2rem;
+color: #333;
+cursor: pointer;
+border: none;
+background: none;
+position: absolute;
+/* position: absolute; */
+}
+
+
+.hide{
+display: none;
+}
+
+.modal {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 70%;
+background-color: white;
+padding: 6rem;
+border-radius: 5px;
+box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+z-index: 10;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.6);
+backdrop-filter: blur(3px);
+z-index: 5;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  th{
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+
+  .ticketRecords{
+    border: 2px #333 solid;
+    border-radius: 10px;
+    -webkit-animation: fadeEffect 1;
+    animation: fadeEffect 1s;
+  }
+
+
+  .show-modal{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    background-color: rgb(116, 255, 123);
+    width: 230px;
+    margin-bottom: 20px;
+    -webkit-animation: fadeEffect 1;
+    animation: fadeEffect 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .deleteBtn{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    background-color: rgba(250, 59, 59, 0.815);
+    width: 230px;
+    margin-bottom: 20px;
+    -webkit-animation: fadeEffect 1;
+    animation: fadeEffect 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-animation: fadeEffect 1;
+    animation: fadeEffect 1s;
+  }
+
+
+  .active{
+    background-color: rgb(241, 67, 67);
+  }
+
+
+  @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1.5;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1.5;}
+  }

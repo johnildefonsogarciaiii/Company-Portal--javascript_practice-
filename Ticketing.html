@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketing</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="ticketing.css">
+    <script defer src="index.js"></script>
+    <script defer src="ticketing.js"></script>
+
+</head>
+<body>
+   <div class="topnavbar">
+    <img src="/photo/samplelogo.png">
+    <a href="HomePage.html">Home</a>
+    <a href="Application.html">Application</a>
+    <a href="Attendance.html">Attendance</a>
+    <a class="Active" href="Ticketing.html">Ticketing</a>
+    <a href="Evaluation.html">Evaluation</a>
+    <a href="HRForms.html">HR Forms</a>
+    <a href="About.html">About</a>
+    <a href="Account.html">Account</a>
+    <P class="employeeName">Hi John Ildefonso Garcia!</P>
+
+   </div>
+
+   <!-- Ticket Entry -->
+   <h2>MyPortal Ticketing System</h2><br>
+
+   <div clas="legend">
+    <h3>Legend</h3>
+
+    <p>: On Process</p>
+    <p>: Accomplished</p>
+    <p>: Canceled </p>
+    </div> 
+
+   <button class="show-modal">New Ticket +</button>
+   <button class="deleteBtn">Cancel Ticket</button>
+
+<div id = "ticketingUpper" class="modal hide">
+    <div class="modal-header">
+    <h2 class="modalHeader">MyPortal New Ticket</h2>
+    <button class="close-modal">&times;</button>
+    </div>
+<div class="content">
+    <div class="ticketEntry1">
+        <div class="ticketingText1">
+            <b>Employee Number: </b><br>
+            <input type="text" id="employeeNumber" placeholder="Employee Number" class="input"><br>
+        </div>
+        <div class="ticketingText2">
+            <b>Department: </b><br>
+            <input type="text" id="employeeDepartment" placeholder="Department" class="input"><br>
+        </div>
+        <div class="ticketingText3">
+            <b>Contact: </b><br>
+            <input type="text" id="employeeContact" placeholder="Contact Number" class="input"><br>
+        </div>
+            <div class="ticketingText4">
+            <b>Point of Origin</b><br>
+        <input type="text" placeholder="Point of Origin" id="employeePointofOrigin" class="input"><br>
+        </div>
+            <div class="ticketingText5">
+            <b>Point of Destination</b><br>
+        <input type="text" placeholder="Point of Destination" id="employeePointofDestination" class="input"><br>
+        </div>
+    </div>
+
+    <div class="ticketEntry2">
+        <div class="ticketingText6">
+            <b>Concern: </b><br>
+            <input type="text" id="employeeConcern" placeholder="Concern" class="concerninput"><br>
+        </div>
+        <div class="ticketingText7">
+            <b>Remarks: </b>  <br>
+            <input type="text" id="employeeRemarks" placeholder="Remarks" class="remarksinput"><br>
+        </div>
+    </div>
+ 
+    <div class="ticketingBtn">
+        <button class="submitbtn">Submit Ticket</button>
+    </div>
+    </div>
+</div>
+</div>
+<div class="overlay hide"></div>
+
+<div class="ticketRecords">
+
+
+<table class = tickets--header>
+    <tr>
+        <th>Action</th>
+        <th>Ticket#</th>
+        <th>Concern</th>
+        <th>Description</th>
+        <th>Point of Origin</th>
+        <th>Point of Destination</th>
+    </tr>
+</table>
+<table class="tickets">
+
+    <tr>
+        <td><input type="checkbox" class="activeTicket"></td>
+        <td id="ticket#1"></td>
+        <td id="ticketConcern1"></td>
+        <td id="ticketDescription1"></td>
+        <td id="ticketPointofOrigin1"></td>
+        <td id="ticketPointofDestination1"></td>
+    </tr>
+</table>
+
+
+</div>
+
+</body>
+</html>

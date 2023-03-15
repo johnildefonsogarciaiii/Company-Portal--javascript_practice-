@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Application.css">
+    <script type="module" defer src="./view/Application.js"></script>
+</head>
+<body>
+   <div class="topnavbar">
+    <img src="/photo/samplelogo.png">
+    <a href="HomePage.html">Home</a>
+    <a class="Active"href="Application.html">Application</a>
+    <a href="Attendance.html">Attendance</a>
+    <a href="Ticketing.html">Ticketing</a>
+    <a href="Evaluation.html">Evaluation</a>
+    <a href="HRForms.html">HR Forms</a>
+    <a href="About.html">About</a>
+    <a href="Account.html">Account</a>
+    <P class="employeeName">Hi John Ildefonso Garcia!</P>
+   </div>
+   
+
+   <div class="body">
+        <div class="left-nav">
+            <button id="left-buttons" class="summary">Summary</button><br>
+            <button id="left-buttons" class="pending">Pending</button><br>
+            <button id="left-buttons" class="approved">Approved</button><br>
+            <button id="left-buttons" class="Void">Void</button><br>
+        </div>
+        <div class="pending_application hide">
+            awd
+        </div>
+        <div class="approved_application hide">
+            asd
+        </div>
+        <div class="void_application hide">
+            afs
+        </div>
+
+
+
+
+        <div class="mid-top">
+            <h2>MyPortal Application</h2><br>
+            <h3>Leave Credits</h3>
+            <p>Vacation Leave: 15</p>
+            <p>Sick Leave: 15</p><br>
+
+            <div class="application-area">
+                <button class="new-application">New Application</button>
+                <button class="cancel-application">Cancel Application</button>
+
+            </div>
+            <div class="application-list">
+                <div class="application-table">
+                    <table class="application-header">
+                        <tr>
+                            <th>
+
+                            </th>
+                            <th>
+                                Date of Application
+                            </th>
+                            <th>
+                                Nature of Leave
+                            </th>
+                            <th>
+                                From
+                            </th>
+                            <th>
+                                To
+                            </th>
+                            <th>
+                                Contact
+                            </th>
+                            <th>
+                                Remarks
+                            </th>
+                        </tr>
+                    </table>
+                <div >
+                    <table class="application-entries"></table>
+                </div>
+                </table>
+            </div>
+            <div class="application-modal hide">
+                <div class="modal-header">
+                    <div class="header">
+                        <h2>My Application</h2>
+                        <button class="close-modal">&times;</button>
+                    </div>
+                    <div class="notes">
+                        <p><h5>Note: Leave credits will be reflected once application was approved</h6></p>
+                    </div>
+                </div>
+                <div class="application_header">
+                    <div>
+                        <div class="application-section1">
+                            <p>Nature of Leave</p><br>
+                            <input type="text" class="nature_of_leave inputs">
+                        </div>
+                    </div> 
+                    <div class="application-section2">
+                        <div id="sec2-first">
+                            <p>From</p><br>
+                            <input type="date" class="desired_date_from inputs" placeholder="From">
+                        </div> 
+                        <div id="sec2-first">
+                            <p>To</p><br>
+                            <input type="date" class="desired_date_to inputs" placeholder="To">
+                        </div>
+                        <div id="sec2-first">
+                            <p>Contact</p><br>
+                            <input type="text" class="contact inputs" placeholder="+639">
+                        </div> 
+                    </div>
+                </div>
+                <button class="submitBtn">Confirm</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="overlay hide"></div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+  
+  /* Style the tab */
+.yearTab {
+  width: fit-content;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  opacity: 0-1;
+  -webkit-animation: fadeEffect 1.5s;
+  animation: fadeEffect 1.5s;
+
+}
+/* Style the buttons that are used to open the tab content */
+.yearTab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.yearTab button:hover {
+  background-color: rgb(156, 181, 236);
+  }
+
+  /* Create an active/current tablink class */
+.yearTab button.active {
+  background-color: #ddd;
+}
+
+
+
+
+
+      /* Style the tab */
+.tablinks1 {
+
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tablinks1 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+.tablink1 button:hover {
+  background-color: rgb(156, 181, 236);
+}
+
+/* Create an active/current tablink class */
+.tablinks1 button.active {
+  background-color: #ddd;
+}
+
+
+/* Style the tab content */
+.tablinks1 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  -webkit-animation: fadeEffect 1.5;
+  animation: fadeEffect 1.5s;
+}
+
+
+
+.tablinks2{
+  display: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  -webkit-animation: fadeEffect 1;
+  animation: fadeEffect 1s;
+
+}
+
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1.5;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1.5;}
+}
+
+
+.btn {
+  width: 150px;
+  overflow: hidden;
+
+  opacity: 0-1;
+  -webkit-animation: fadeEffect 1.5s;
+  animation: fadeEffect 1.5s;
+}
+
+.btn button:hover {
+  background-color: rgb(143, 171, 233);
+}
+
+
+.loginDiv{
+  padding: 20px 20px;
+
+}
+
+
+#wholeYear22{
+width: 100%;
+border-collapse: separate;
+border-spacing: 20px;
+
+}
+
+
+td{
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+th{
+  text-align: center;
+  vertical-align: middle;
+  width: 150px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}

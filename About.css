@@ -1,0 +1,81 @@
+
+
+.container {
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+
+}
+
+.centerBar{
+display: flex;
+width: 90%;
+padding: 60px 20px;
+margin: auto;
+-webkit-animation: fadeEffect 1.5s;
+animation: fadeEffect 1.5s;
+}
+
+#Btn{
+width: 200px;
+height: 50px;
+margin: 10px;
+border-radius: 8px;
+-webkit-animation: fadeEffect 1.5s;
+animation: fadeEffect 1.5s;
+}
+
+.modal-container{
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+
+}
+
+.companyProfile-modal{
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+}
+
+.vision-modal{
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+}
+
+.mission-modal{
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+}
+
+.coreValues-modal{
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+}
+
+.organizationalChart-modal{
+    -webkit-animation: fadeEffect 1.5s;
+    animation: fadeEffect 1.5s;
+}
+.active{
+background-color: rgb(152, 214, 250);
+-webkit-animation: fadeEffect 1.5s;
+animation: fadeEffect 1.5s;
+}
+
+
+.hide{
+display: none;
+-webkit-animation: fadeEffect 1.5s;
+animation: fadeEffect 1.5s;
+}
+
+
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1.5;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1.5;}
+  }
